@@ -1,0 +1,4 @@
+Move semantics : a way to use temporary variables and avoid unnecessary copies
+
+Instead of creating a new memory and then destroying it after copying from it, we can use that new
+memory and make it permanent

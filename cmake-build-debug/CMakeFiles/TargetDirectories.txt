@@ -1,0 +1,3 @@
+/Volumes/WD 1TB HDD/Learning/Tuts/Programming/Complete/C++20 - Daniel/Practice/cmake-build-debug/CMakeFiles/exec_file.dir
+/Volumes/WD 1TB HDD/Learning/Tuts/Programming/Complete/C++20 - Daniel/Practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/WD 1TB HDD/Learning/Tuts/Programming/Complete/C++20 - Daniel/Practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

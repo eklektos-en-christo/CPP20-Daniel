@@ -1,0 +1,16 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/opt/local/bin/gcc-mp-14 -DCMAKE_CXX_COMPILER=/opt/local/bin/g++-mp-14 -G "CodeBlocks - Unix Makefiles" -S "/Volumes/WD 1TB HDD/Learning/Tuts/Programming/Complete/C++20 - Daniel/Practice" -B "/Volumes/WD 1TB HDD/Learning/Tuts/Programming/Complete/C++20 - Daniel/Practice/cmake-build-debug"
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- Configuring done (0.1s)
+CMake Error at CMakeLists.txt:9 (add_executable):
+  No SOURCES given to target: exec_file
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

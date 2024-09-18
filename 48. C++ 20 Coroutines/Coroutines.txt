@@ -1,0 +1,22 @@
+Coroutines - designed to do asynchronous programming much easier, they are a generalization of C++
+functions
+
+functions:
+- can be called
+- can return a value
+
+C++20
+- can be paused
+- can be resumed
+
+Coroutine workflow: any of the below keywords in a function makes the function a coroutine
+
+co_yield - suspends the execution and returns a value
+co_return - completes the execution and returns a value
+co_await - suspends the execution until it is resumed
+
+exceptions - what can't be a coroutine
+- constexpr functions
+- ctors
+- dtors
+- main function

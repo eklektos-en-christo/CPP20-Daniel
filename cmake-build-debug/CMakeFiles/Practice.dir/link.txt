@@ -1,0 +1,1 @@
+/opt/local/bin/g++-mp-14  -fmodules-ts -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Practice.dir/49._C++_20_Modules/49.1_first.module.cpp.o CMakeFiles/Practice.dir/49._C++_20_Modules/math.ixx.o CMakeFiles/Practice.dir/49._C++_20_Modules/math.cpp.o -o Practice 

@@ -1,0 +1,16 @@
+Polymorphism : Base ptr/ref to derived objects, related to inheritance
+
+A Base ptr/ref can handle the derived objects
+
+Use : code reusability, we can use base code again and again with derived objects, we don't
+have to setup additional code for each derived type
+
+We can also store different types of objects in an array, though it is not allowed to store
+different types in an array, but we can store the base pointers to derived objects in a single
+array of base pointers
+
+Polymorphism : multiple forms
+
+reduced code redundancy
+
+final and override are not keywords : they are identifiers, C++11

@@ -1,0 +1,108 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/local/lib/gcc14/gcc/x86_64-apple-darwin20/14.2.0/include",
+						"/opt/local/lib/gcc14/gcc/x86_64-apple-darwin20/14.2.0/include-fixed",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/local/lib/gcc14/gcc/x86_64-apple-darwin20/14.2.0",
+						"/opt/local/lib/gcc14",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib"
+					],
+					"linkFrameworkDirectories" : 
+					[
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks"
+					],
+					"linkLibraries" : 
+					[
+						"emutls_w",
+						"heapt_w",
+						"gcc"
+					]
+				},
+				"path" : "/opt/local/bin/gcc-mp-14",
+				"version" : "14.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/local/include/gcc14/c++",
+						"/opt/local/include/gcc14/c++/x86_64-apple-darwin20",
+						"/opt/local/include/gcc14/c++/backward",
+						"/opt/local/lib/gcc14/gcc/x86_64-apple-darwin20/14.2.0/include",
+						"/opt/local/lib/gcc14/gcc/x86_64-apple-darwin20/14.2.0/include-fixed",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/local/lib/gcc14/gcc/x86_64-apple-darwin20/14.2.0",
+						"/opt/local/lib/gcc14",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib"
+					],
+					"linkFrameworkDirectories" : 
+					[
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks"
+					],
+					"linkLibraries" : 
+					[
+						"emutls_w",
+						"heapt_w",
+						"stdc++",
+						"gcc_s.1.1",
+						"gcc"
+					]
+				},
+				"path" : "/opt/local/bin/g++-mp-14",
+				"version" : "14.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

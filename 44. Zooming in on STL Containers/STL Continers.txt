@@ -1,0 +1,10 @@
+STL container categories:
+
+sequence containers : elements stored in a sequence
+example - deque, forward_list, list, vector, std::array
+
+associate containers : elements stored by key and value pair
+example - set, map, multiset, multimap, unordered set, unordered map
+
+container adaptors : specialization of sequence containers
+example - stack, queue,  priority_queue

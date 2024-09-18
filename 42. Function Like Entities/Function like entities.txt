@@ -1,0 +1,8 @@
+anything that works like a function
+
+they take input, process it and return a result
+
+helper function : a callback function, can be called by a function when needed, used in event based
+programming, like GUI
+
+A function that takes a callback is called a higher order function

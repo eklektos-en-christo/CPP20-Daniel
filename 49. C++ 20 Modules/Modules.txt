@@ -1,0 +1,16 @@
+Modules : they change the compilation model of C++ program
+
+problems with headers:
+preprocessor pastes the included headers' code into the source file, there are ODR violations if
+ a definition appears in multiple files, order of the definitions also matter when using header
+ files
+
+a definition in one module is constrained only that module, same definition in another module will
+be a different definition
+
+Module interface file .ixx - acts as a header file, anything in it is constrained to this file only
+any other interface file that has the same definitions will be constrained to that file only
+
+Binary interface file - binary representation of .ixx file, compiler processes the .ixx file into a
+binary format and any files importing .ixx file will reference the binary interface file, it can be
+reused by multiple files

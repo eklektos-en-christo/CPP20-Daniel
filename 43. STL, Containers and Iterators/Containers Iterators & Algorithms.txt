@@ -1,0 +1,6 @@
+Containers/collections : use to manage collections of data easily
+
+Iterators : pointer like types used to navigate through the collections
+
+Algorithms : a bunch of functions used to manipulate the collections or data
+

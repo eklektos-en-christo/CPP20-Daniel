@@ -1,0 +1,5 @@
+Exceptions: helps to bring the errors and problems to the surface so we can handle them
+
+code with problems goes in a try block and we use throw keyword to throw an exception and catch
+block handles the problem
+
